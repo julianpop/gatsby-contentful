@@ -1,0 +1,55 @@
+.page {
+  width: 90vw;
+  max-width: 1170px;
+  text-transform: capitalize;
+  margin: 0 auto;
+}
+.page span {
+  margin-left: 2rem;
+  color: gray;
+  font-weight: 300;
+}
+.page article {
+  margin: 2rem 0;
+}
+.page div {
+  height: 15rem;
+}
+@media screen and (min-width: 768px) {
+  .page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .page {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+.prodhome {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1rem;
+  text-align: center;
+}
+.prodhome article {
+  background: #eee;
+  padding: 10px;
+  border-radius: 5px;
+}
+.prodhomeBTN {
+  padding: 5px 10px;
+  background: #ddd;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  color: #333;
+  display: inline-block;
+}
+.prodhomeBTN:hover {
+  background: #fff;
+}
+.prodhomeBTNLink {
+  color: #333;
+  text-decoration: none;
+}

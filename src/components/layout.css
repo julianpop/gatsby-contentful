@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap");
+
+body {
+  font-family: "Roboto", "sans-serif";
+}
+h1 {
+  color: #000;
+  text-transform: capitalize;
+  font-weight: 900;
+}
+h2 {
+  color: #333;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+header {
+  background: #ccc;
+  padding: 20px;
+  text-align: center;
+}
+main {
+  padding: 20px;
+  text-align: left;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+li {
+  display: inline;
+  padding: 5px;
+}
+li a {
+  background: #333;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+li a:hover {
+  color: #000;
+  background: #eee;
+}
+footer {
+  background: #ccc;
+  padding: 20px;
+  text-align: center;
+}
+.images {
+  text-align: center;
+  text-transform: capitalize;
+  width: 99%;
+  margin: 0 auto 10rem auto;
+}
+.single-image {
+  padding: 1rem;
+  margin: 1rem 0;
+  background: #eee;
+  border-radius: 5px;
+}
+@media screen and (min-width: 992px) {
+  .images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+  }
+}
+.single-product {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 3rem auto;
+}
+@media screen and (min-width: 768px) {
+  .single-product {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2rem;
+  }
+}
