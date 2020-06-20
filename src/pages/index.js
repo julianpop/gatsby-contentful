@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../components/Layout"
-import { ExampleButton } from "../components/Button"
 import { graphql, Link } from "gatsby"
 import Image from "gatsby-image"
 import styles from "../components/products.module.css"
@@ -14,14 +13,14 @@ const ComponentHomepage = ({ data }) => {
     <Layout>
       <h1>This is a Gatsby/Contenful Tutorial</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id
-        sodales enim. Suspendisse convallis lorem sit amet nunc gravida gravida.
-        Ut porta eros quis sem faucibus dignissim. Morbi mattis aliquet mauris,
-        id ullamcorper neque aliquet ac.
+        My first Gatsby/Contentful site. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit. Mauris id sodales enim. Suspendisse convallis lorem sit
+        amet nunc gravida gravida. Ut porta eros quis sem faucibus dignissim.
+        Morbi mattis aliquet mauris, id ullamcorper neque aliquet ac.
       </p>
       <p>
-        <Link to="/blog">
-          <ExampleButton>Read More</ExampleButton>
+        <Link to="/blog" className={styles.prodhomeBTN}>
+          Read More
         </Link>
       </p>
       <h1>Latest Products</h1>
