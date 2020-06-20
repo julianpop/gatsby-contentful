@@ -1,6 +1,6 @@
 import React from "react"
 import Header from "../examples/Header"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import { graphql } from "gatsby"
 
 const examples = ({ data }) => {
