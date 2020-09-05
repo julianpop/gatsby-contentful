@@ -1,13 +1,8 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
   My First Gatsby Contentful site
 </h1>
 
-My First Gatsby/Contentful site.
+<a href="https://vaxgatsbycontentful.netlify.app/" target="_blank">Site on Netlify</a>
 
 <!-- AUTO-GENERATED-CONTENT:END -->
