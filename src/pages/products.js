@@ -12,6 +12,7 @@ const ComponentName = ({ data }) => {
   return (
     <Layout>
       <h1>Products</h1>
+      <h2><a href="/products/latest">See latest products</a></h2>
       <section className={styles.page}>
         {products.map((product) => {
           return (
