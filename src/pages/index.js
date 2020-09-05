@@ -23,7 +23,7 @@ const ComponentHomepage = ({ data }) => {
           Read More
         </Link>
       </p>
-      <h1>Latest Products</h1>
+      <h1><a href="/products/latest">Latest Products</a></h1>
       <section className={styles.prodhome}>
         {products.map((product) => {
           return (
